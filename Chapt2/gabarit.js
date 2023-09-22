@@ -1,0 +1,1 @@
+let nomComplet = `${prenom} ${nom}`; // 'Fanta Traoré'

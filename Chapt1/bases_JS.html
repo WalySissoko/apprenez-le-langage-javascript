@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemple JavaScript simple</title>
+  </head>
+  <body>
+    <h1>Bonjour !</h1>
+    <p>Quel est votre nom ?</p>
+    <input type="text" id="nom" />
+    <button onclick="afficherMessage()">Afficher le message</button>
+    <p id="message"></p>
+
+    <script>
+      function afficherMessage() {
+        var nom = document.getElementById("nom").value;
+        var message = "Bonjour, " + nom + " ! Bienvenue dans l'univers JavaScript !";
+        document.getElementById("message").innerHTML = message;
+      }
+    </script>
+  </body>
+</html>
